@@ -6,7 +6,6 @@ from streamlit_extras.colored_header import colored_header
 
 
 #os.environ['OPENAI_API_KEY'] = api.get_key()
-#os.environ["OPENAI_API_KEY"] = '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'
 
 OPENAI_KEY = st.secrets["OPENAI_TOKEN"]
 os.environ["OPENAI_API_KEY"] = OPENAI_KEY
